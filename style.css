@@ -1,0 +1,398 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "calibri";
+  overflow-x: hidden;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+/* heading-section */
+header img {
+  height: 9vh;
+}
+.heading-1 {
+  display: flex;
+  padding: 3rem 2rem 0rem 4rem;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  padding-left: 16rem;
+  padding-top: 2.5rem;
+}
+.heading-2 {
+  display: flex;
+  padding: 0.2rem 2rem 0.2rem 9rem;
+}
+h2 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+label {
+  font-size: 1rem;
+}
+header label {
+  padding-left: 54rem;
+}
+.date {
+  border-style: none;
+}
+/* main-section */
+main {
+  padding: 0.2rem 7rem;
+}
+main input {
+  border-style: none;
+  border-bottom: dotted;
+}
+/* section-A */
+.text-1 input {
+  width: 70vw;
+}
+.text-2 label {
+  line-height: 1.3;
+}
+.text-2 input {
+  margin-bottom: 1rem;
+  width: 32vw;
+}
+.flex-text {
+  display: flex;
+  line-height: 2.5;
+}
+.section-A .left {
+  width: 46vw;
+}
+.text-3 :nth-child(2) {
+  width: 10vw;
+}
+.text-3 :nth-child(3) {
+  padding-left: 2rem;
+}
+.text-3 :nth-child(4) {
+  width: 18vw;
+}
+.section-A .right {
+  padding-left: 2rem;
+  width: 34vw;
+}
+.text-5 input {
+  width: 27.8vw;
+}
+.text-6 input {
+  width: 21.7vw;
+}
+hr {
+  border-bottom: solid 0.2rem;
+  margin-top: 1rem;
+}
+/* section-B */
+.section-B h2 {
+  text-align: center;
+}
+.text-7 label {
+  padding-right: 9.5rem;
+}
+.text-8 input {
+  width: 21vw;
+}
+.section-B .right {
+  padding-left: 16rem;
+}
+.text-9 input {
+  width: 23vw;
+}
+.text-10 input {
+  width: 25.5vw;
+}
+.text-11,
+.text-12,
+.text-13 {
+  line-height: 2;
+}
+.text-11 input {
+  width: 50vw;
+  margin-top: 1rem;
+}
+.text-12 input {
+  width: 51vw;
+}
+.text-13 input {
+  width: 49.7vw;
+  margin-bottom: 1rem;
+}
+/* section-C */
+.section-C h2,
+.section-D h2 {
+  text-align: center;
+}
+.text-14 input {
+  width: 29vw;
+}
+.section-C .flex-text,
+.section-D .flex-text {
+  margin: 0.5rem 0rem 1.2rem;
+}
+.text-15 input {
+  width: 34.5vw;
+}
+.text-16 input {
+  width: 31vw;
+}
+.section-C .right,
+.section-D .right {
+  padding-left: 8.5rem;
+}
+.text-17 input {
+  width: 29vw;
+}
+.text-18 input {
+  width: 25.5vw;
+}
+.text-19 label {
+  font-weight: bold;
+}
+.text-19 input {
+  margin-bottom: 1rem;
+  border-style: none;
+}
+h3 {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.section-D .flex-text {
+  z-index: 1;
+}
+footer {
+  margin-top: -2rem;
+  overflow: hidden;
+  font-weight: ;
+}
+footer img {
+  height: 10rem;
+  width: 100vw;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  margin-top: -5rem;
+}
+/* Media Queries include larger tablets, smaller laptops, and some desktop monitors.*/
+@media (max-width: 1024px) {
+  /* heading-section */
+  header img {
+    height: 6vh;
+  }
+  h1 {
+    font-size: 1.5rem;
+    padding-left: 12rem;
+    padding-top: 2.5rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  label {
+    font-size: 1.3rem;
+  }
+  header label {
+    padding-left: 38rem;
+  }
+  /* main-section */
+  main {
+    padding: 0.2rem 7rem;
+  }
+  /* section-A */
+  .text-1 input {
+    width: 62vw;
+  }
+  .text-2 input {
+    margin-bottom: 0.8rem;
+    width: 27vw;
+  }
+  .flex-text {
+    line-height: 1.7;
+  }
+  .section-A .left {
+    width: 45vw;
+  }
+  .text-3 :nth-child(2) {
+    width: 8vw;
+  }
+  .text-3 :nth-child(4) {
+    width: 14vw;
+  }
+  .section-A .right {
+    padding-left: 1rem;
+    width: 40vw;
+  }
+  .text-5 input {
+    width: 28.5vw;
+  }
+  .text-6 input {
+    width: 19.5vw;
+  }
+  /* section-B */
+  .text-7 label {
+    padding-right: 7rem;
+  }
+  .text-8 input {
+    width: 21.5vw;
+  }
+  .section-B .left {
+    width: 40vw;
+  }
+  .section-B .right {
+    padding-left: 1.8rem;
+  }
+  .text-9 input {
+    width: 22.5vw;
+  }
+  .text-10 input {
+    width: 26vw;
+  }
+  .text-11 input {
+    width: 45vw;
+  }
+  .text-12 input {
+    width: 47vw;
+  }
+  .text-13 input {
+    width: 44.8vw;
+  }
+  /* section-C */
+  .text-14 input {
+    width: 20vw;
+  }
+  .text-15 input {
+    width: 28vw;
+  }
+  .text-16 input {
+    width: 23vw;
+  }
+  .section-C .right,
+  .section-D .right {
+    padding-left: 5.7rem;
+  }
+  .text-17 input {
+    width: 30vw;
+  }
+  .text-18 input {
+    width: 25vw;
+  }
+}
+@media (max-width: 768px) {
+  /* heading-section */
+  header img {
+    height: 7vh;
+  }
+  h1 {
+    font-size: 1.3rem;
+    padding-left: 8rem;
+    padding-top: 2rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  label {
+    font-size: 0.9rem;
+  }
+  header label {
+    padding-left: 24.5rem;
+  }
+  /* main-section */
+  /* section-B */
+  main {
+    padding: 0.2rem 5rem;
+  }
+  .text-7 label {
+    padding-right: 4rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  /* footer-section */
+  .flex {
+    margin-top: -4rem;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 425px) {
+  /* heading-section */
+  header img {
+    height: 5vh;
+  }
+  .heading-1 {
+    padding: 3rem 2rem 0rem 2rem;
+  }
+  h1 {
+    font-size: 0.8rem;
+    padding-left: 3rem;
+    padding-top: 1rem;
+  }
+  .heading-2 {
+    padding: 0.1rem 0rem 0.1rem 2.2rem;
+  }
+  .heading-2 label {
+    font-size: 0.7rem;
+  }
+  h2 {
+    font-size: 0.7rem;
+  }
+  label {
+    font-size: 0.7rem;
+  }
+  header label {
+    padding-left: 12.5rem;
+  }
+  /* main-section */
+  main {
+    padding: 0.2rem 1.8rem;
+  }
+  /* section-A */
+  .text-1 input {
+    width: 62vw;
+  }
+  .text-2 input {
+    margin-bottom: 0.4rem;
+  }
+  .flex-text {
+    line-height: 1rem;
+  }
+  .section-A .left {
+    width: 43vw;
+  }
+  .text-3 :nth-child(2) {
+    width: 7vw;
+  }
+  .text-3 :nth-child(3) {
+    padding-left: 0.5rem;
+  }
+  .text-3 :nth-child(4) {
+    width: 14vw;
+  }
+  .text-4 input {
+    width: 19vw;
+  }
+  .text-4 label {
+    font-size: 0.7rem;
+  }
+  .section-A .right {
+    padding-left: 0.5rem;
+    width: 39vw;
+  }
+  .text-5 input {
+    width: 29vw;
+  }
+  .text-6 input {
+    width: 17vw;
+  }
+  /* section-B */
+  .text-7 label {
+    padding-right: 0.5rem;
+  }
+  tex
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Derivery Note</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="">
+      <!-- heading-section -->
+      <header>
+        <div class="heading-1">
+          <img src="images/truck.png" alt="truck" />
+          <h1>delivery note</h1>
+        </div>
+        <div class="heading-2">
+          <h2>dn #</h2>
+          <label for="date">Date</label>
+          <input
+            type="text"
+            id="date"
+            name="date"
+            pattern="\d{2}/\d{2}/20\d{2}"
+            placeholder=" _ / _ /20 _"
+            required
+            class="date"
+          />
+        </div>
+      </header>
+      <!-- main-section -->
+      <main>
+        <section class="section-A">
+          <div class="text-1">
+            <label for="name">Consignee name:</label>
+            <input type="text" />
+          </div>
+          <div class="text-2">
+            <label for="address"> Address: </label>
+            <input type="text" name="" id="" />
+          </div>
+          <div class="flex-text">
+            <div class="left">
+              <div class="text-3">
+                <label for="file-no">File No:</label>
+                <input type="text" />
+                <label for="t1">T1</label>
+                <input type="text" />
+              </div>
+              <div class="text-4">
+                <label for="Date">Loading Date</label>
+                <input
+                  type="text"
+                  id="date-1"
+                  name="date"
+                  pattern="\d{2}/\d{2}/20\d{2}"
+                  placeholder=" _ / _ /20 _"
+                  required
+                  class="date"
+                />
+              </div>
+            </div>
+            <div class="right">
+              <div class="text-5">
+                <label for="Client"> Client</label>
+                <input type="text" name="" id="" />
+              </div>
+              <div class="text-6">
+                <label for="truck"> Truck/Trailer No: </label>
+                <input type="text" name="" id="" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr />
+        <section class="section-B">
+          <h2>please receive the below mentioned goods</h2>
+          <div class="flex-text">
+            <div class="left">
+              <div class="text-7">
+                <label for="Cargo-type">Cargo Type:</label>20FT
+                <input type="checkbox" name="" id="" />40FT
+                <input type="checkbox" name="" id="" />LCL
+                <input type="checkbox" name="" id="" />
+              </div>
+              <div class="text-8">
+                <label for="Grosse-weight">Grosse Weight</label>
+                <input type="text" />
+              </div>
+            </div>
+            <div class="right">
+              <div class="text-9">
+                <label for="Container-no">Container No:</label>
+                <input type="text" />
+              </div>
+              <div class="text-10">
+                <label for="Serial-no">Serial No:</label>
+                <input type="text" />
+              </div>
+            </div>
+          </div>
+          <div class="text-11">
+            <label for="Container-instruction">Container Instraction</label>
+            <input type="text" />
+          </div>
+          <div class="text-12">
+            <label for="specific-instraction">Specific instraction</label>
+            <input type="text" />
+          </div>
+          <div class="text-13">
+            <label for="additional-instraction">Additional Instraction</label>
+            <input type="text" />
+          </div>
+        </section>
+        <hr />
+        <section class="section-C">
+          <h2>any damage to cargo or delay should be reported immediately</h2>
+          <div class="text-14">
+            <label for="reported">Reported to</label>
+            <input type="text" />Agent
+          </div>
+          <div class="flex-text">
+            <div class="left">
+              <div class="text-15">
+                <label for="name"> Name</label>
+                <input type="text" />
+              </div>
+              <div class="text-16">
+                <label for="date-time">Date &amp Time</label>
+                <input type="datetime" />
+              </div>
+            </div>
+            <div class="right">
+              <div class="text-17">
+                <label for="sign"> Sign</label>
+                <input type="text" name="" id="" />
+              </div>
+              <div class="text-18">
+                <label for="phone_no"> Phone No: </label>
+                <input type="tel" name="" id="" />
+              </div>
+            </div>
+          </div>
+          <div class="text-19">
+            <label for="stamp">STAMP</label>
+            <input type="text" />
+          </div>
+        </section>
+        <hr />
+        <section class="section-D">
+          <h2>goods received in good condition</h2>
+          <div class="flex-text">
+            <div class="left">
+              <div class="text-15">
+                <label for="name"> Name</label>
+                <input type="text" />
+              </div>
+              <div class="text-16">
+                <label for="date-time">Date &amp Time</label>
+                <input type="datetime" />
+              </div>
+            </div>
+            <div class="right">
+              <div class="text-17">
+                <label for="sign"> Sign</label>
+                <input type="text" name="" id="" />
+              </div>
+              <div class="text-18">
+                <label for="phone_no"> Phone No: </label>
+                <input type="tel" name="" id="" />
+              </div>
+            </div>
+          </div>
+          <div class="text-19">
+            <label for="stamp">STAMP</label>
+            <input type="text" />
+          </div>
+          <h3>Delivery by</h3>
+          <div class="flex-text">
+            <div class="left">
+              <div class="text-15">
+                <label for="name"> Name</label>
+                <input type="text" />
+              </div>
+              <div class="text-16">
+                <label for="date-time">Date &amp Time</label>
+                <input type="datetime" />
+              </div>
+            </div>
+            <div class="right">
+              <div class="text-17">
+                <label for="sign"> Sign</label>
+                <input type="text" name="" id="" />
+              </div>
+              <div class="text-18">
+                <label for="phone_no"> Phone No: </label>
+                <input type="tel" name="" id="" />
+              </div>
+            </div>
+          </div>
+          <div class="text-19">
+            <label for="stamp">STAMP</label>
+            <input type="text" />
+          </div>
+        </section>
+      </main>
+      <footer>
+        <img src="images/wave.png" alt="wave" />
+        <div class="flex">
+          <pre>
+Plot no 397/63,Kaluta Street
+Opposite Bohora Mosque
+P.O.Box 21285 Dar-es-salaam,Tanzania.
+            </pre
+          >
+          <pre>
+www.marinair co tz
+Email:info@marinair.com
+Tel:022 2110806,0743940599.
+          </pre>
+        </div>
+      </footer>
+    </form>
+  </body>
+</html>
